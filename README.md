@@ -12,7 +12,7 @@
 
 # 👋 Hola
 
-Soy Juan Pablo, estudiante de la **Escuela Superior Politécnica del Litoral (ESPOL)** en Guayaquil, Ecuador (Paralelo 5, PAO II - 2026). Me apasionan los videojuegos y siempre estoy dispuesto a aprender cosas nuevas.
+Soy Juan Pablo, estudiante de la **Escuela Superior Politécnica del Litoral (ESPOL)** en Guayaquil, Ecuador. Me apasionan los videojuegos y siempre estoy dispuesto a aprender cosas nuevas.
 
 Tengo conocimientos en Python, me gusta SQL y estoy aprendiendo más sobre HTML, CSS, JavaScript, TypeScript y React.
 
