@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio de Juan Pablo Arenas Tituaña, estudiante de la ESPOL: proyectos y tecnologías.">
+    <title>Juan Pablo Arenas Tituaña · Portafolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="topnav" aria-label="Navegación principal">
+        <a class="brand" href="#inicio">~/juan</a>
+        <ul>
+            <li><a href="#about">Acerca de mí</a></li>
+            <li><a href="#projects">Proyectos</a></li>
+            <li><a href="#tech">Tecnologías</a></li>
+            <li><a href="#contact">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- HERO -->
+        <header id="inicio" class="hero">
+            <div class="hero-text">
+                <span class="pill"><i class="dot"></i> abierto a proyectos · Guayaquil, EC</span>
+                <h1>Hola, soy <span class="accent">Juan Pablo.</span></h1>
+                <p class="prompt">~ <span class="chev">❯</span> <span id="typed" data-text="estudiante de la ESPOL · Hazlo incluso cansado"></span><span class="cursor">_</span></p>
+                <p class="gh-url">github.com/JuanArenas08</p>
+            </div>
+
+            <div class="term" aria-label="Mis proyectos">
+                <div class="term-bar">
+                    <i class="d r"></i><i class="d y"></i><i class="d g"></i>
+                    <span>~/proyectos</span>
+                </div>
+                <ul>
+                    <li><i class="dot"></i> conversor-de-bases</li>
+                    <li><i class="dot"></i> NidU</li>
+                    <li><i class="dot"></i> SRVP-SBD</li>
+                </ul>
+            </div>
+        </header>
+
+        <div class="badges">
+            <a class="badge" href="https://github.com/JuanArenas08"><span>GitHub</span><b>JuanArenas08</b></a>
+            <a class="badge" href="https://www.instagram.com/juxnsito_o/"><span>Instagram</span><b>juxnsito_o</b></a>
+            <span class="badge"><span>ESPOL</span><b>PAO II · 2026</b></span>
+        </div>
+
+        <!-- ACERCA DE MÍ -->
+        <section id="about">
+            <h2><span class="emoji">👋</span> Acerca de mí</h2>
+            <p>Soy estudiante de la <strong>Escuela Superior Politécnica del Litoral (ESPOL)</strong> en Guayaquil, Ecuador. Actualmente curso el <strong>Paralelo 5, PAO II - 2026</strong>. Me apasionan los videojuegos y siempre estoy dispuesto a aprender cosas nuevas.</p>
+            <p>Tengo conocimientos en Python, me gusta SQL y estoy aprendiendo más sobre HTML, CSS, JavaScript, TypeScript y React. Estoy emocionado por seguir creciendo como desarrollador.</p>
+        </section>
+
+        <!-- PROYECTOS -->
+        <section id="projects">
+            <h2><span class="emoji">🚀</span> Proyectos</h2>
+            <div class="cards">
+                <article class="card">
+                    <h3>Conversor de bases numéricas</h3>
+                    <p>Programa interactivo en Assembly x86 de 16 bits con menú para convertir entre decimal, binario y hexadecimal. Valida la entrada según la base elegida y muestra mensajes de error claros. Desarrollado para Organización de Computadores.</p>
+                    <ul class="chips"><li>Assembly x86</li><li>emu8086</li></ul>
+                    <a class="btn" href="https://github.com/JuanArenas08/ASSEMBLY-CONVERSOR-DE-BASES-NUM-RICAS" target="_blank" rel="noopener">Ver repositorio →</a>
+                </article>
+
+                <article class="card">
+                    <h3>NidU</h3>
+                    <p>Prototipo web que ayuda a estudiantes foráneos de Guayaquil a encontrar arriendos cercanos a su universidad, y a los agentes inmobiliarios a publicar y administrar sus propiedades. Desarrollado en grupo para Emprendimiento e Innovación.</p>
+                    <ul class="chips"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>localStorage</li></ul>
+                    <a class="btn" href="https://github.com/JuanArenas08/NidU" target="_blank" rel="noopener">Ver repositorio →</a>
+                </article>
+
+                <article class="card">
+                    <h3>SRVP-SBD</h3>
+                    <p>Proyecto de base de datos para un servicio de renta y venta de videojuegos, con una aplicación en Python que se conecta a la base y permite crear, consultar, actualizar y eliminar registros.</p>
+                    <ul class="chips"><li>Python</li><li>SQL</li><li>Bases de datos</li></ul>
+                    <a class="btn" href="https://github.com/JuanArenas08/SRVP-SBD" target="_blank" rel="noopener">Ver repositorio →</a>
+                </article>
+            </div>
+        </section>
+
+        <!-- TECNOLOGÍAS -->
+        <section id="tech">
+            <h2><span class="emoji">🛠️</span> Tecnologías</h2>
+            <div class="cards">
+                <article class="card">
+                    <h3>Python</h3>
+                    <p>Lo usé para la lógica y las operaciones CRUD de <strong>SRVP-SBD</strong>, conectando la aplicación con la base de datos.</p>
+                </article>
+                <article class="card">
+                    <h3>SQL y bases de datos</h3>
+                    <p>Diseño y consulta de los datos del servicio de renta y venta de videojuegos en <strong>SRVP-SBD</strong>.</p>
+                </article>
+                <article class="card">
+                    <h3>Assembly x86 · emu8086</h3>
+                    <p>Programación de bajo nivel: entrada/salida, validación y conversión entre bases en el <strong>conversor de bases numéricas</strong>, ejecutado en el emulador emu8086.</p>
+                </article>
+                <article class="card">
+                    <h3>HTML, CSS y JavaScript</h3>
+                    <p>Base de <strong>NidU</strong> (estructura, estilos, enrutador por hash y datos guardados en localStorage) y de este mismo portafolio.</p>
+                </article>
+                <article class="card">
+                    <h3>Git y GitHub</h3>
+                    <p>Control de versiones con commits por fases en todos mis repositorios, y publicación de este sitio con <strong>GitHub Pages</strong>.</p>
+                </article>
+                <article class="card">
+                    <h3>En aprendizaje</h3>
+                    <p>TypeScript y React, que quiero aplicar en mis próximos proyectos web.</p>
+                    <ul class="chips"><li>TypeScript</li><li>React</li></ul>
+                </article>
+            </div>
+        </section>
+
+        <!-- CONTACTO -->
+        <section id="contact">
+            <h2><span class="emoji">📫</span> Contacto</h2>
+            <p>Puedes encontrarme en:</p>
+            <ul class="links">
+                <li>GitHub: <a href="https://github.com/JuanArenas08">JuanArenas08</a></li>
+                <li>Instagram: <a href="https://www.instagram.com/juxnsito_o/">juxnsito_o</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Juan Pablo Arenas Tituaña · ESPOL</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
